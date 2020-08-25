@@ -1,4 +1,4 @@
 <?php
-  include_once("lulu.html");
+  include_once("src/lulu.html");
 
 ?>
