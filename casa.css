@@ -4,13 +4,13 @@
 */
 
 body{
-    height: 100vh;
+    height: 120vh;
     background: url('fundo.svg') no-repeat;
-    background-position: 35vw bottom;
+    background-position: 40vw bottom;
    
 }
 
- .content{
+.content{
     width: 90%;
     max-width: 1100px;
     height: 100%;
@@ -20,7 +20,7 @@ body{
 }
 
 
- header {
+header {
     display: flex;
     align-items: center;
     justify-content:space-between ;
@@ -28,7 +28,7 @@ body{
     margin-top: 50px;
 }
 
- header a {
+header a {
     display: flex;
     color:var(--title-color);
     font-weight: 700;
@@ -36,14 +36,15 @@ body{
 
 }
 
- header a span{
+header a span{
     margin-right: 16px;
     display: flex;
     background-image: url('log-in.svg');
     width: 20px;
     height: 20px;
 }
- main{
+
+main{
     max-width: 560px;
 
     flex: 1;
@@ -53,17 +54,17 @@ body{
     justify-content: center;
 }
 
- main h1{
+main h1{
     font-size: 54px;
 }
 
- main p{
+main p{
     font-size: 24px;
     line-height: 38px;
     margin-top: 24px;
 }
 
- main a{
+main a{
     width: 100%;
     max-width: 360px;
     height: 72px;
@@ -81,11 +82,11 @@ body{
   
 }
 
- main a:hover{
+main a:hover{
     background-color: #7d91ff;
 }
 
- main a span{
+main a span{
     width: 72px;
     height: 72px;
 
@@ -99,7 +100,7 @@ body{
     justify-content: center;
     
 }
- main a span::after{
+main a span::after{
     content: "";
     background-image: url('search.svg');
 
@@ -107,7 +108,7 @@ body{
     height: 20px;
 }
 
- main a strong{
+main a strong{
     flex: 1;
     color: white;
 

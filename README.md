@@ -1,1 +1,1 @@
-# projeto
+# Projeto ficticio de doação de roupas.
